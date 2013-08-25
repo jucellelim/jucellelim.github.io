@@ -3,10 +3,13 @@ layout: default
 title: Work
 ---
 <section class="sixteen columns gallery">
-  <a href="work-details.html"><img class="one-third column alpha" src="/images/gallery-thumbnail-1.png" /></a>
-  <img class="one-third column alpha" src="/images/gallery-thumbnail-2.png" />
-  <img class="one-third column alpha" src="/images/gray-square.png" />
-  <img class="one-third column alpha" src="/images/gray-square.png" />
+  {% for post in site.posts %}
+
+  <a href="{{ post.url }}">
+    <img class="one-third column alpha" src="{{ post.image }}" alt="{{ post.title }}" />
+  </a>
+
+  {% endfor %}
   <img class="one-third column alpha" src="/images/gray-square.png" />
   <img class="one-third column alpha" src="/images/gray-square.png" />
   <img class="one-third column alpha" src="/images/gray-square.png" />
