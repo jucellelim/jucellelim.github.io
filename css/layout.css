@@ -1,0 +1,128 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+html, body, input, textarea {
+    height: 100%;
+    font-family: roboto;
+    font-size: 14px;
+    color: #777777;
+}
+
+article p {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: roboto;
+    font-weight: bold;
+    color: #339999;
+}
+
+section img {
+    display: inline;
+}
+
+nav a {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.align-right {
+    float: right;
+}
+
+.container {
+    min-height: 100%;
+    margin-bottom: -78px;
+}
+
+.container:after {
+    content: "";
+    display: block;
+}
+
+footer {
+    height: 78px;
+    text-align: center;
+}
+
+/* #Page Styles
+================================================== */
+#home-image {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.gallery img {
+    margin-bottom: 10px;
+}
+
+.skills img {
+    margin-left: 20px;
+}
+
+.work-samples {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.work-summary>h5, .work-summary>p {
+    text-align: center;
+}
+
+contact-form > * {
+    display: block;
+}
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+	@font-face {
+	    font-family: roboto;
+	    src: url('../fonts/Roboto-Regular.ttf');
+	    font-weight: normal;
+	    font-style: normal; }
+
+  @font-face {
+      font-family: roboto;
+      src: url('../fonts/Roboto-Bold.ttf');
+      font-weight: bold;
+      font-style: normal; }

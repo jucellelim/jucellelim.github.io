@@ -1,46 +1,51 @@
 <!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{% if page.title %} {{ page.title }} | {% endif %} Jucelle Lim, Graphic Designer</title>
+    <meta name="description" content="Jucelle's Portfolio">
+	  <meta name="author" content="Jucelle Lim">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+	  <!-- Mobile Specific Metas
+         ================================================== -->
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+	  <!-- CSS
+         ================================================== -->
+	  <link rel="stylesheet" href="/css/base.css">
+	  <link rel="stylesheet" href="/css/skeleton.css">
+	  <link rel="stylesheet" href="/css/layout.css">
 
-    </head>
-    <body>
+	  <!--[if lt IE 9]>
+		    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	      <![endif]-->
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
+	  <!-- Favicons
+	       ================================================== -->
+	  <link rel="shortcut icon" href="/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+	  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
+	  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
+  </head>
+  <body>
 
-                {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /container -->
-
-    </body>
+    <div class="container">
+      <nav class="eleven columns offset-by-three row" role="navigation">
+        <a href="/about"><img src="/images/about-button.png" alt="about"/></a>
+        <a href="/work"><img src="/images/work-button.png" alt="work" /></a>
+        <a id="home-image" href="/"><img src="/images/jucelle-logo.png" alt="home" /></a>
+        <a href="/resume"><img src="/images/resume-button.png" alt="resume" /></a>
+        <a href="/contact"><img src="/images/contact-button.png" alt="contact"  /></a>
+      </nav>
+      {{ content }}
+    </div> <!-- /container -->
+    <footer class="sixteen columns">
+      <img src="/images/footer.png" alt="footer" />
+    </footer>
+  </body>
 </html>
