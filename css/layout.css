@@ -33,9 +33,15 @@ section img {
     display: inline;
 }
 
-nav a {
-    margin-left: 16px;
-    margin-right: 16px;
+nav {
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+nav img {
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .align-right {
@@ -44,7 +50,9 @@ nav a {
 
 .container {
     min-height: 100%;
-    margin-bottom: -78px;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -73px;
 }
 
 .container:after {
@@ -53,19 +61,24 @@ nav a {
 }
 
 footer {
-    height: 78px;
+    height: 73px;
     text-align: center;
 }
 
 /* #Page Styles
 ================================================== */
-#home-image {
-    margin-right: 5px;
-    margin-left: 5px;
+#home-button {
+    padding-right: 23px;
+    padding-left: 23px;
 }
 
 .gallery img {
     margin-bottom: 10px;
+}
+
+.homepage-image {
+    margin: 0 auto;
+    display: block;
 }
 
 .skills img {
@@ -87,25 +100,42 @@ footer {
 }
 
 .work-entry img {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.resume-icon {
+    float: left;
+    margin-top: 3px;
+    margin-right: 5px;
 }
 
 .resume>article {
     margin-bottom: 2em;
 }
 
-.resume>article>div {
-    margin-bottom: 1em;
+.resume article>header {
+    margin-bottom: 5px;
 }
 
-.resume .italic {
+.resume h5 {
+    display: inline;
+}
+
+.resume em {
     font-size: 11px;
-    font-style: italic;
 }
 
 .resume div {
+    margin-bottom: 10px;
     font-weight: bold;
+}
+
+#pdf-download {
+    margin: 0 auto;
+    display: block;
 }
 
 .clear-margin {
@@ -117,8 +147,17 @@ footer {
     margin-bottom: 0px;
 }
 
-contact-form > * {
+.resume .title {
+    padding-left: 25px;
+}
+
+.contact-form > * {
     display: block;
+
+}
+
+#send-button {
+    margin: 0 auto;
 }
 
 /* #Media Queries

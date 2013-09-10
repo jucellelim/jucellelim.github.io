@@ -7,7 +7,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{% if page.title %} {{ page.title }} | {% endif %} Jucelle Lim, Graphic Designer</title>
+    <title>
+      {% if page.title == 'Home' %} 
+        Jucelle Lim | Designer
+      {% else %}
+        {{ page.title }} | Jucelle Lim
+      {% endif %} 
+    </title>
     <meta name="description" content="Jucelle's Portfolio">
 	  <meta name="author" content="Jucelle Lim">
 
@@ -35,16 +41,17 @@
   <body>
 
     <div class="container">
-      <nav class="eleven columns offset-by-three row" role="navigation">
+      <nav class="ten columns offset-by-three" role="navigation">
         <a href="/about"><img src="/images/about-button.png" alt="about"/></a>
         <a href="/work"><img src="/images/work-button.png" alt="work" /></a>
-        <a id="home-image" href="/"><img src="/images/jucelle-logo.png" alt="home" /></a>
+        <a href="/"><img id="home-button" src="/images/jucelle-logo.png" alt="home" /></a>
         <a href="/resume"><img src="/images/resume-button.png" alt="resume" /></a>
         <a href="/contact"><img src="/images/contact-button.png" alt="contact"  /></a>
       </nav>
       {{ content }}
     </div> <!-- /container -->
-    <footer class="sixteen columns">
+    <br class="clear"/>
+    <footer>
       <img src="/images/footer.png" alt="footer" />
     </footer>
   </body>

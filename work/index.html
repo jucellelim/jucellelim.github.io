@@ -2,17 +2,12 @@
 layout: default
 title: Work
 ---
-<section class="sixteen columns gallery">
+<section class="twelve offset-by-two columns gallery">
   {% for post in site.posts %}
 
   <a href="{{ post.url }}">
-    <img class="one-third column alpha" src="{{ post.image }}" alt="{{ post.title }}" />
+    <img class="three column omega" src="{{ post.image }}" alt="{{ post.title }}" />
   </a>
 
   {% endfor %}
-  <img class="one-third column alpha" src="/images/gray-square.png" />
-  <img class="one-third column alpha" src="/images/gray-square.png" />
-  <img class="one-third column alpha" src="/images/gray-square.png" />
-  <img class="one-third column alpha" src="/images/gray-square.png" />
-  <img class="one-third column alpha" src="/images/gray-square.png" />
 </section>
