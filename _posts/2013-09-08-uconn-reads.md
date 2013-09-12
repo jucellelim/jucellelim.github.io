@@ -1,7 +1,7 @@
 ---
 layout: work_entry
 title: UConn Reads
-image: /static/images/work/04-uconn-reads.png
+css-class: uconn-reads
 category: work
 ---
 

@@ -39,9 +39,29 @@ nav {
     margin-bottom: 5em;
 }
 
-nav img {
-    padding-left: 16px;
-    padding-right: 16px;
+.button-link {
+    display: inline-block;  
+    text-indent: -99999px;
+}
+
+.button-link:hover {
+    background-position: 0 0;
+}
+
+.work-link {
+    display: block;
+    text-indent: -99999px;
+    width: 220px;
+    height: 220px;
+}
+
+.work-link:hover {
+    background-position: 0 0;
+}
+
+nav a {
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .align-right {
@@ -65,12 +85,74 @@ footer {
     text-align: center;
 }
 
+.home-nav {
+    width: 154px;
+    height: 157px;
+    background: url('/images/jucelle-logo-w-hover.png') bottom;
+}
+
+.about-nav {
+    width: 60px;
+    height: 51px;
+    background: url('/images/about-nav-w-hover.png') bottom;
+}
+
+.work-nav {
+    width: 60px;
+    height: 51px;
+    background: url('/images/work-nav-w-hover.png') bottom;
+}
+
+.resume-nav {
+    width: 60px;
+    height: 51px;
+    background: url('/images/resume-nav-w-hover.png') bottom;
+}
+
+.contact-nav {
+    width: 60px;
+    height: 51px;
+    background: url('/images/contact-nav-w-hover.png') bottom;
+}
+
+.bfa2011 {
+    background: url('/static/images/work/bachelor-of-finearts-w-hover.png') bottom;
+}
+
+.do-not-disconnect {
+    background: url('/static/images/work/do-not-disconnect-w-hover.png') bottom;
+}
+
+.get-up {
+    background: url('/static/images/work/get-up-w-hover.png') bottom;
+}
+
+.julson-bakeshop {
+    background: url('/static/images/work/julson-bakeshop-w-hover.png') bottom;
+}
+
+.lol-wht {
+    background: url('/static/images/work/lol-wht-w-hover.png') bottom;
+}
+
+.split-knuckle {
+    background: url('/static/images/work/split-knuckle-w-hover.png') bottom;
+}
+
+.the-minis {
+    background: url('/static/images/work/the-minis-w-hover.png') bottom;
+}
+
+.twirl-it {
+    background: url('/static/images/work/twirl-it-w-hover.png') bottom;
+}
+
+.uconn-reads {
+    background: url('/static/images/work/uconn-reads-w-hover.png') bottom;
+}
+
 /* #Page Styles
 ================================================== */
-#home-button {
-    padding-right: 23px;
-    padding-left: 23px;
-}
 
 .about article {
     padding-top: 10px;

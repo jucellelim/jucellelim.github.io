@@ -1,7 +1,7 @@
 ---
 layout: work_entry
 title: Split Knuckle Theater
-image: /static/images/work/06-split-knuckle-theatre.png
+css-class: split-knuckle
 category: work
 ---
 

@@ -2,12 +2,10 @@
 layout: default
 title: Work
 ---
-<section class="twelve offset-by-two columns gallery">
+<section class="twelve offset-by-two columns gallery omega">
   {% for post in site.posts %}
 
-  <a href="{{ post.url }}">
-    <img class="three column omega" src="{{ post.image }}" alt="{{ post.title }}" />
-  </a>
+  <a class="three column omega work-link {{ post.css-class }}" href="{{ post.url }}">  </a>
 
   {% endfor %}
 </section>

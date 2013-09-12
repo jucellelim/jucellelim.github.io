@@ -1,7 +1,7 @@
 ---
 layout: work_entry
 title: Julson Bakeshop
-image: /static/images/work/01-julson-bakeshop.png
+css-class: julson-bakeshop
 category: work
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: work_entry
 title: Bachelor of Fine Arts Exhibition 2011
-image: /static/images/work/02-bachelor-of-fine-arts.png
+css-class: bfa2011
 category: work
 ---
 

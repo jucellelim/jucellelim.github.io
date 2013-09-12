@@ -1,7 +1,7 @@
 ---
 layout: work_entry
 title: Do Not Disconnect
-image: /static/images/work/03-do-not-disconnect.png
+css-class: do-not-disconnect
 category: work
 ---
 
