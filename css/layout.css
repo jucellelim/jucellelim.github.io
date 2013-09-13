@@ -160,6 +160,19 @@ footer {
     background: url('/static/images/work/uconn-reads-w-hover.png') bottom;
 }
 
+.scroll-button {
+    display: block;
+    text-indent: -99999px;
+    width: 130px;
+    height: 64px;
+    margin: 0 auto;
+    background: url('/images/scroll-up-button-w-hover.png') bottom;
+}
+
+.scroll-button:hover {
+    background-position: 0 0;
+}
+
 /* #Page Styles
 ================================================== */
 
