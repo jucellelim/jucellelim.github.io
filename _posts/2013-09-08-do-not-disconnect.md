@@ -15,7 +15,6 @@ The design team used the inspiration from the title of the exhibition, “Do Not
 ![placeholder](/static/images/work/do-not-disconnect/do-not-disconnect-1.jpg "")
 ![placeholder](/static/images/work/do-not-disconnect/do-not-disconnect-2.jpg "")
 ![placeholder](/static/images/work/do-not-disconnect/do-not-disconnect-3.jpg "")
-![placeholder](/static/images/work/do-not-disconnect/do-not-disconnect-3.jpg "")
 ![placeholder](/static/images/work/do-not-disconnect/do-not-disconnect-4.jpg "")
 ![placeholder](/static/images/work/do-not-disconnect/do-not-disconnect-5.jpg "")
 ![placeholder](/static/images/work/do-not-disconnect/do-not-disconnect-6.gif "")
