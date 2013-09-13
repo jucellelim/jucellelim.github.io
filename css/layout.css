@@ -85,7 +85,7 @@ nav a {
 }
 
 .container:after {
-    content: "";
+    content: ".";
     display: block;
 }
 
@@ -263,8 +263,17 @@ footer {
     display: block;
 }
 
-#send-button {
+.send-button {
     margin: 0 auto;
+    width: 115px;
+    height: 60px;
+    display: block;
+    text-indent: -99999px;
+    background: url('/images/send-button-w-hover.png') bottom;
+}
+
+.send-button:hover {
+    background-position: 0 0;
 }
 
 /* #Media Queries
