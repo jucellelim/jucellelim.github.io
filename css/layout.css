@@ -29,6 +29,14 @@ h1, h2, h3, h4, h5, h6 {
     color: #339999;
 }
 
+hr {
+    color: #339999;
+    background: #339999;
+    height: 1.5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 section img {
     display: inline;
 }

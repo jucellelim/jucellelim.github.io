@@ -6,3 +6,11 @@ layout: default
   <h5>{{ page.title }}</h5>
   {{ content }}
 </section>
+<section class="twelve offset-by-two columns gallery omega">
+  <hr>
+  {% for post in site.posts %}
+
+  <a class="three column omega work-link {{ post.css-class }}" href="{{ post.url }}"></a>
+
+  {% endfor %}
+</section>
