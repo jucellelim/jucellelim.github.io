@@ -1,6 +1,6 @@
 ---
 layout: work_entry
-title: Split Knuckle Theater
+title: Split Knuckle Theatre
 css-class: split-knuckle
 category: work
 ---
